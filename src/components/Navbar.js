@@ -61,7 +61,7 @@ function Navbar() {
         </input>
         <button type='submit'>submit</button>
       </form> */}
-
+ <h1> some new lilne </h1>
       {
         todos.map((td)=>{
           <div key={td.id}>
@@ -74,6 +74,8 @@ function Navbar() {
             {td.name}
           </label>
         </div>
+
+       
 
         })
       }
